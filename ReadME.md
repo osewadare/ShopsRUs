@@ -17,5 +17,5 @@ Usage
  
 > Launch ShopsRUS.API
 
-> Launch https://localhost:5001/swagger/index.html on your browser
+> Launch https://localhost:5002 on your browser
 
