@@ -1,0 +1,26 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+
+.DS_Store
+.vs
+
+/src/ShopsRUs.API/bin
+/src/ShopsRUs.API/obj
+/src/ShopsRUs.API/dist
+
+
+/src/ShopsRus.Core/bin
+/src/ShopsRus.Core/obj
+
+/src/WinBack.Rewards/bin
+/src/WinBack.Rewards/obj
+
+/src/ShopsRUs.Infrastructure/bin
+/src/ShopsRUs.Infrastructure/obj
+
+/src/ShopsRUs.Services/obj
+/src/ShopsRUs.Services/obj
+
+

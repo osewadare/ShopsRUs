@@ -1,0 +1,7 @@
+﻿{
+  "SqliteFileName": "shopsRUsDb.sqlite",
+
+  "Queries": {
+    "SelectCustomerByName": "SELECT * FROM Customers WHERE LOWER(FirstName) == '{firstName}' AND Lower(LastName) == '{lastName}'"
+  }
+}

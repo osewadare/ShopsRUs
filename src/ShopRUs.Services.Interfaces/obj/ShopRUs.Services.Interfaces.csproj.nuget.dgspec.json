@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopRUs.Services.Interfaces/ShopRUs.Services.Interfaces.csproj": {}
+  },
+  "projects": {
+    "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopRUs.Services.Interfaces/ShopRUs.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopRUs.Services.Interfaces/ShopRUs.Services.Interfaces.csproj",
+        "projectName": "ShopRUs.Services.Interfaces",
+        "projectPath": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopRUs.Services.Interfaces/ShopRUs.Services.Interfaces.csproj",
+        "packagesPath": "/Users/dareosewa/.nuget/packages/",
+        "outputPath": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopRUs.Services.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dareosewa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/ShopsRus.Core.csproj": {
+                "projectPath": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/ShopsRus.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/ShopsRus.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/ShopsRus.Core.csproj",
+        "projectName": "ShopsRus.Core",
+        "projectPath": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/ShopsRus.Core.csproj",
+        "packagesPath": "/Users/dareosewa/.nuget/packages/",
+        "outputPath": "/Users/dareosewa/Desktop/ShopsRUs1.0/ShopsRUs/src/ShopsRus.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dareosewa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
